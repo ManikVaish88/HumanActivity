@@ -65,7 +65,7 @@ library(reshape)
 melt_data <- melt(final_data, id = id_labels, measure.vars = data_labels)
 
 #Step #4
-# Apply mean function to dataset using dcast function
+# Apply mean function to dataset using dcast
 tidy_data <- dcast(melt_data, subject + Label ~ variable, mean)
 
 write.table(tidy_data, file = "./tidy_data.txt", row.name=FALSE)
