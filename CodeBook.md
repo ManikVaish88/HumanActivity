@@ -20,7 +20,7 @@ tBodyAcc-XYZ tGravityAcc-XYZ tBodyAccJerk-XYZ tBodyGyro-XYZ tBodyGyroJerk-XYZ tB
 
 mean(): Mean value std(): Standard deviation Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-Steps to create a tiday dataset for only mean and standard deviation measures form all the variables.
+Steps to create a tidy dataset for only mean and standard deviation measures form all the variables.
 1. Extracts only the measurements on the mean and standard deviation for each measurement.
 2. Appropriately labels the data set with descriptive variable names.
 3. Merges the training and the test sets to create one data set.
